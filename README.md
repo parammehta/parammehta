@@ -1,53 +1,34 @@
-# Param Mehta — Portfolio
+# Param Mehta
 
-[![Site preview](/public/site-preview.png)](https://parammehta.com)
+Software engineer building identity, design systems, and AI-native experiences.
 
-My personal portfolio site. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://parammehta.com).
+Currently a **Senior Software Engineer at Intuit**, where I lead passkey adoption across products (10% → 26% of active customers), architect cross-identity SSO patterns, and run the org's agentic AI track — prototyping MCP-based agent authentication and AI-assisted engineering practices.
 
-## Install & run
+Previously: founding engineer on Rivian's Fleet Core team, and design systems + marketplace engineer at Walmart.
 
-Make sure you have Node.js `20.9.0` or higher and npm `8.6.0` or higher installed (see `.nvmrc` — run `nvm use` if you use nvm). Install dependencies with:
+---
 
-```bash
-npm install
-```
+### What I work on
 
-Once it's done, copy `.env.example` to `.env` and fill in the values, then start up a local server with:
+**Identity & Authentication** — Passkeys, SSO, cross-product auth flows at scale across QuickBooks, TurboTax, Credit Karma, and Mailchimp.
 
-```bash
-npm run dev
-```
+**Design Systems** — Authored and maintained 100+ shared components with theming, Storybook environments, and weekly office hours — twice, at two Fortune 500s.
 
-To view the components storybook:
+**AI & Agents** — Building MCP-based prototypes for agent authentication and leading AI-assisted engineering adoption at Intuit.
 
-```bash
-npm run storybook
-```
+---
 
-To create a production build (static export):
+### Tech I reach for
 
-```bash
-npm run build
-```
+`React` `Next.js` `TypeScript` `Node.js` `GraphQL` `Three.js` `Storybook` `AWS` `D3.js` `Spring Boot`
 
-## Deployment
+---
 
-The site is hosted on AWS (S3 for the static site, Lambda for the contact form). You'll need an AWS account and the AWS CLI installed, and the S3 bucket names in `package.json`'s `deploy`/`deploy:storybook` scripts updated to your own.
+### Writing
 
-Deploy the site to S3:
+- [A modern approach to styling in React](https://parammehta.com/articles/modern-styling-in-react) — dynamic styling with CSS custom properties
+- [Hello world: how I built this site](https://parammehta.com/articles/hello-world) — migrating from CRA to Next.js
 
-```bash
-npm run deploy
-```
+---
 
-Deploy the serverless contact form function:
-
-```bash
-cd functions
-npm run deploy:api
-```
-
-## Notes
-
-- The rotating background sphere on the homepage is a Three.js shader; its color comes from the fragment shader in `src/layouts/Home/displacementSphereFragment.glsl`.
-- The contact form is wired up to an AWS Lambda function in `functions/`; see `functions/serverless.yml` for its configuration.
+[parammehta.com](https://parammehta.com) · [LinkedIn](https://www.linkedin.com/in/parammehta/) · [@abovepar_am](https://twitter.com/abovepar_am)
