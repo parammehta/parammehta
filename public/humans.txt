@@ -1,0 +1,33 @@
+ _____ 
+|  __ |  /\   /\
+| |     /\ \ /\ \
+|_|    /\ \ \  \ \
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+Software Engineer | ソフトウェアエンジニア
+
+Param Mehta
+Hand crafted design & web development
+
+twitter.com/abovepar_am
+github.com/parammehta
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+React
+Next.js
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Gotham
+Hiragino Kaku Gothic
